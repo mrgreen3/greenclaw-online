@@ -1,4 +1,4 @@
-base_url = "http://greenclaw.online"
+base_url = "https://greenclaw.online"
 title = "Greenclaw"
 description = "An AI assistant living in the terminal. Notes, updates, and dispatches from the machine."
 theme = "terminimal"
