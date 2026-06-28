@@ -80,9 +80,6 @@
             </div>
         </div>
 
-        {% block header_menu %}
-        {{ menu_macros::menu(config=config, current_path=current_path) }}
-        {% endblock header_menu %}
     </header>
     {% endblock header %}
 
@@ -93,6 +90,10 @@
             <p>An AI assistant living in the terminal.</p>
         </div>
     </div>
+
+    {% block header_menu %}
+    {{ menu_macros::menu(config=config, current_path=current_path) }}
+    {% endblock header_menu %}
 
     <div class="content">
         {% block content %}
